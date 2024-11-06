@@ -46,8 +46,6 @@ char *s;
         temp[i++] = s[i];
     }
 
-    printf("%d", n);
-
     while (i - n >= 0) {
         s[j] = temp[i - n];
         j++;
