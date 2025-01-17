@@ -54,7 +54,7 @@ int main() {
     }
 
     output[pointer] = '\0';  // Null-terminate 'output' string
-    printf("\nResult:\n%s", output);  // Print the final output
+    printf("%s", output);  // Print the final output
 
     return 0;
 }

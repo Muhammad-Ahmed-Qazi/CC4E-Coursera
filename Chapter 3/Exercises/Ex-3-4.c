@@ -43,7 +43,9 @@ char *s;
     n = 1;
 
     while (s[i] != '\0') {
-        temp[i++] = s[i];
+        c = s[i];
+        i++;
+        temp[i] = c;
     }
 
     while (i - n >= 0) {
